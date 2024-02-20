@@ -7,17 +7,15 @@ The goal of this project is to:
 2. Allow students to explore incorporating Integration Tests
 
 ## Program
-Build a system that allows a store owner to manage an inventory of books and customers' book wishlists. 
+Build a bookstore system which should allow a user to manage an inventory of books and customers' book wishlists, with the additional functionality of ringing customer up. 
 
 ### Requirements 
-- A customer should be able to check their wishlest to know if their book is in the inventory.
-- A bookstore should be able to notify customers when a book from their wishlist becomes available.
-   - This implies that it wasn't previously available.
-- Include unit and integration tests.  
-
-In addition to your code, include a brief description of your test plan as a text document. Be sure to include the following:
-   - which method are you using
-   - what relationships are you testing
+- A user should be able to check on whether books on the customer's wishlist are in the inventory.
+- If a book in the current transaction is on the customer's wishlist, it should be removed from the wishlist after the transaction is completed.
+- Books in the current transaction should be removed from inventory after the transaction is completed.
+- Include unit and integration tests.
+- In addition to your code, include a screenshot of the coverage report after using the `Coverage.py` package.
+  - https://coverage.readthedocs.io/en/7.4.2/  
 
 ## Submission Details
 If you are usinng git from the command line, execute the following commands:
