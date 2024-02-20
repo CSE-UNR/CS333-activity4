@@ -16,8 +16,8 @@ In addition to your code, include a brief description of your test plan as a tex
    
 Create the integration tests, according to your test plan
 
-## Submission details
-To submit your project, you will have to use git on your VirtualBox installation:
+## Submission Details
+If you are usinng git from the command line, execute the following commands:
 1.	After accepting the assignment invitation, copy the clone URL
 2.	Type 
 ```git clone clone URL```
